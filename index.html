@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container blue">
+    <div class="container blue prevent-grow">
         <div class="header container-child">
             <div class="logo">Header Logo</div>
             <ul>
@@ -22,10 +22,12 @@
         <div class="register container-child">
             <div class="register-left">
                 <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes ehre under the main title. It's a smaller font and the color is lower contrast.</p>
-                <p><a class="signup-button">Sign up</a></p>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                <p><a href="#" class="signup-button">Sign up</a></p>
             </div>
-            <img src="./images/dolphins.jpeg">
+            <div class="register-right">
+                <img src="./images/dolphins.jpeg">
+            </div>
         </div>
     </div>
 
@@ -66,11 +68,11 @@
                 <h1 class="action-header">Call to action! It's time!</h1>
                 <p class="action-text">Sign up for our product by clicking that button right over there!</p>
             </div>
-            <p><a href="#" class="action-button">Sign up</a></p>
+            <p><a href="#" class="signup-button">Sign up</a></p>
         </div>
     </div>
 
-    <div class="container blue">
+    <div class="container blue prevent-grow">
         <div class="footer container-child">The Odin Project 2023</div>
     </div>
 </body>
