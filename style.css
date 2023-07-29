@@ -31,6 +31,34 @@ body {
     color: #F9FAF8;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header li {
+    list-style-type: none;
+}
+
+.header a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #E5E7EB;
+    padding: 5px;;
+}
+
 img {
     width: 400px;
 }
