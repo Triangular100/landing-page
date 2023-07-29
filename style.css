@@ -4,6 +4,33 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 0 60px;
+    width: 100%;
+}
+
+.container-child {
+    display: flex;
+    max-width: 900px;
+    flex: 1;
+}
+
+.container.blue {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
 img {
     width: 400px;
 }
