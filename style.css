@@ -32,6 +32,15 @@ body {
     color: #F9FAF8;
 }
 
+.container.white {
+    background-color: white;
+    color: #1F2937;
+}
+
+.container.gray {
+    background-color: #E5E7EB;
+}
+
 .container.prevent-grow {
     flex-grow: 0;
 }
@@ -97,4 +106,37 @@ a {
 
 .register img {
     max-width: 100%;
+}
+
+
+.content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content h1 {
+    font-weight: bolder;
+    padding: 30px;
+}
+
+.content .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.content p {
+    width: 150px;
+    color: #6b717b;
+}
+
+.content .image {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
 }
